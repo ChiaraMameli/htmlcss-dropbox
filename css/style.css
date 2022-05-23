@@ -64,7 +64,7 @@ a {
     padding-top: 200px;
 }
 
-.padd-bottom {
+.padd-bottom30 {
     padding-bottom: 30px;
 }
 
@@ -88,9 +88,8 @@ a {
 
 header {
     height: 60px;
-    line-height: 60px;
-    padding: 0 15px;
     font-size: 12px;
+    padding: 20px 15px;
     position: fixed;
     top: 0;
     left: 0;
@@ -102,7 +101,6 @@ header {
     justify-content: flex-start;
     width: 10%;
     display: block;
-    padding-top: 3px;
 }
 
 #logo img {
@@ -112,6 +110,7 @@ header {
 #navigation-bar {
     flex-grow: 1;
     justify-content: space-between;
+
 }
 
 #general a{
@@ -124,8 +123,12 @@ header {
     color: #7F7F7F;
 }
 
-#user {
-    margin-right: 30px;
+#login a {
+    color: #FFF;
+    display: inline-block;
+    padding: 4px 10px;
+    background-color: #065FF6;
+    margin-top: -4px;
 }
 
 /* JUMBOTRON */
@@ -136,21 +139,30 @@ header {
 }
 
 h1 {
-    text-align: center;
-    padding: 100px 0;
+    text-align: left;
+    font-size: 58px;
+    font-weight: 700;
+    padding-top: 55px;
+    padding-bottom: 40px;
 }
 
-#description {
-    width: 30%;
-}
 
-#customer-proposal-img {
-    height: 400px;
-    width: 400px;
-    background-color: #065FF6;
+#customer-proposal-img img{
+    height: 350px;
     flex-grow: 1;
 }
 
+#jumbo-description {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+#jumbo-description div a {
+    color: #FFF;
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #065FF6;
+}
 
 /* SUBSCRIPTION PLANS */
 
