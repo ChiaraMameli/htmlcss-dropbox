@@ -15,7 +15,7 @@
 <body>
     <header class="d-flex">
         <div id="logo"><img src="img/logo-small.png" alt=""></div>
-        <nav id="navigation-bar" class="d-flex">
+        <nav id="navigation-bar" class="d-flex font-sz12">
             <ul id="general" class="d-flex">
                 <li><a href="#">Perché Dropbox</a></li>
                 <li><a href="#">Funzioni</a></li>
@@ -35,7 +35,7 @@
             <div class="big-container">
                 <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
                 <div class="d-flex">
-                    <div id="jumbo-description">
+                    <div id="jumbo-description" class="font-sz12">
                         <p class="padd-bottom30">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
                         <div class="padd-bottom30"><a href="#" rel="button"> Inizia la tua prova gratuita</a></div>
                         <span>Annulla in qualsiasi momento</span>
@@ -47,16 +47,85 @@
             </div>
         </div>
 
-        <section id="subscription-plans" class="padd-bottom">
-            <div class="small-container padd-top">
-                <h3>subscription plans</h3>
-                <span>blabla</span>
-                <span>blabla</span>
-                <div id="cards" class="d-flex padd-bottom">
-                    <div class="col-plan grey-border"></div>
-                    <div class="col-plan grey-border"></div>
-                    <div class="col-plan grey-border"></div>
+        <section id="subscription-plans" class="padd-bottom padd-top100">
+            <div class="small-container font-sz12">
+                <h3 class="padd-bottom30">Trova il piano business che fa per te</h3>
+                <div class="padd-bottom30">
+                    <span class="radio-box padd-right30"><span class="circle blue-border"></span>Fatturazione mensile</span>
+                    <span class="radio-box"><span class="circle"></span>Fatturazione annuale</span>
                 </div>
+
+                <div class="d-flex padd-bottom cards">
+                    <div class="col-plan-title grey-border">
+                        <h6 class="text-align-c font-sz12"><i class="fa-solid fa-user"></i> Singolo</h6>
+                    </div>
+                    <div class="col-plan-title grey-border">
+                        <h6 class="text-align-c font-sz12"><i class="fa-solid fa-users"></i> Team</h6>
+                    </div>
+                    <div class="col-plan-title grey-border">
+                        <h6 class="text-align-c font-sz12"><i class="fa-solid fa-building"></i> Azienda</h6>
+                    </div>
+                </div>
+
+                <div class="d-flex padd-bottom cards">
+                    <div class="col-plan grey-border">
+                        <h4 class="padd-lr20">Professional</h4>
+                        <span class="price padd-lr20"> &euro;12.00</span> <br>
+                        <span class="padd-lr20 lgrey-text">/mese</span>
+                        <ul class="padd-lr20 ">
+                            <li><i class="fa-solid fa-user"></i> 1 utente</li>
+                            <li><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</li>
+                            <li><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura e bla bla bla</li>
+                        </ul>
+                        <div class="button buy"><a href="#">Prova gratis per 30 giorni</a></div>
+                        <span class="padd-lr20 bottom-grey-border">oppure <a href="#">acquista ora</a></span>
+                        <ul class="padd-lr20">
+                            <li><h5>Punti salienti del piano</h5></li>
+                            <li><i class="fa-solid fa-check"></i> Invia file fino a 100 GB con Dropbox Transfert</li>
+                            <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                        </ul>
+                    </div>
+                    <div class="col-plan grey-border">
+                        <h4 class="padd-lr20">Advanced</h4>
+                        <span class="price padd-lr20"> &euro;18.00</span> <br>
+                        <span class="padd-lr20 lgrey-text">/utente/mese</span>
+                        <ul class="padd-lr20 ">
+                            <li><i class="fa-solid fa-user"></i> 3 o più utenti</li>
+                            <li><i class="fa-solid fa-folder"></i> Tutto lo spazio di cui ha bisogno il tuo team</li>
+                            <li><i class="fa-solid fa-share-nodes"></i> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>
+                        </ul>
+                        <div class="button buy"><a href="#">Prova gratis per 30 giorni</a></div>
+                        <span class="padd-lr20 bottom-grey-border">oppure <a href="#">acquista ora</a></span>
+                        <ul class="padd-lr20">
+                            <li><h5>Punti salienti del piano</h5></li>
+                            <li><i class="fa-solid fa-check"></i> Nessun limite di spazio per i file</li>
+                            <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                            <li><i class="fa-solid fa-check"></i> Risparmio del 50% rispetto alle iscrizioni singole</li>
+                            <li><i class="fa-solid fa-check"></i> Possibilità di inserire nuovi membri del team</li>
+                            <li><i class="fa-solid fa-check"></i> Gestione dei permessi in base ai ruoli</li>
+                        </ul>
+                    </div>
+                    <div class="col-plan grey-border">
+                        <h4 class="padd-lr20">Enterprise</h4>
+                        <span class="price padd-lr20">Contattaci</span> <br>
+                        <span class="padd-lr20 lgrey-text">-</span>
+                        <ul class="padd-lr20 ">
+                            <li><i class="fa-solid fa-user"></i> 10 o più utenti</li>
+                            <li><i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda</li>
+                            <li><i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li>
+                        </ul>
+                        <div class="button buy"><a href="#">Prova gratis per 30 giorni</a></div>
+                        <span class="padd-lr20 bottom-grey-border">oppure <a href="#">acquista ora</a></span>
+                        <ul class="padd-lr20">
+                            <li><h5>Punti salienti del piano</h5></li>
+                            <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                            <li><i class="fa-solid fa-check"></i> Servizio assistenza 24/h</li>
+                            <li><i class="fa-solid fa-check"></i> Possibilità di personalizzazione</li>
+                        </ul>
+                    </div>
+
+                </div>
+
                 <div id="row-enterprise" class="grey-border">
                     <div class="bottom-border">Team</div>
                     <div class="d-flex">
