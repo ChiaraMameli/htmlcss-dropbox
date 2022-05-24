@@ -470,12 +470,16 @@ header {
     padding-top: 90px;
 }
 
+.fa-angle-down {
+    color: #000;
+}
 
 /* FOOTER */
 
 footer {
     background-color: #000;
-    color: #FFF;    
+    color: #FFF; 
+    margin-top: 60px;   
 }
 
 
@@ -483,10 +487,16 @@ footer {
     justify-content: space-between;
 }
 
-
-.fa-angle-down {
-    color: #000;
+footer h5 {
+    line-height: 50px;
+    padding-top: 30px;
+    font-size: 16px;
 }
+
+footer li {
+    line-height: 30px;
+}
+
 /* BUTTONS */
 
 .button a{
