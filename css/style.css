@@ -93,7 +93,6 @@ img {
     border-bottom: 1px solid lightgray;
 }
 
-
 .text-align-c {
     text-align: center;
 }
@@ -352,6 +351,7 @@ header {
 
 #companies {
     padding-top: 80px;
+    padding-bottom: 0;
 }
 
 #designit-centre {
@@ -429,32 +429,47 @@ header {
     background-color: #FCD84A;
 }
 
-
-
 /* TRY */
 
 #try {
     background-color: #B4D0E7;
-    height: 250px;
 }
 
 #try-description {
-    width: 60%;
-    background-color: #3694CE;
-    height: 250px;
+    width: 50%;
 }
 
 #try-bttn {
-    width: 40%;
-    background-color: #0D2481;
-    height: 250px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+#try h3 {
+    color: #62142B;
+    font-size: 30px;
+    margin: 80px 0;
+}
+
+#try a{
+    border: none; 
+    padding: 8px 35px; 
+    margin-left: 100px;  
 }
 
 /* FAQ */
 
 .faq {
     justify-content: space-between;
+    line-height: 60px;
+    font-weight: 700;
 }
+
+#accordion h3 {
+    font-size: 30px;
+    padding-top: 90px;
+}
+
 
 /* FOOTER */
 
@@ -468,6 +483,10 @@ footer {
     justify-content: space-between;
 }
 
+
+.fa-angle-down {
+    color: #000;
+}
 /* BUTTONS */
 
 .button a{
