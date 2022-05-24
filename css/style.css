@@ -60,25 +60,21 @@ a {
     margin: 0 auto;
 }
 
-.padd-top100 {
-    padding-top: 100px;
+.pb-30 {
+    padding-bottom: 30px; 
 }
 
-.padd-bottom30 {
-    padding-bottom: 30px;
+.pb-15 {
+    padding-bottom: 15px;
 }
 
 .padd-top30 {
-    padding-top: 30px;
+    padding-top: 30px;  
 
 }
 
 .padd-right30 {
     padding-right: 30px;   
-}
-
-.padd-lr20 {
-    padding: 0 20px;
 }
 
 .grey-border {
@@ -89,10 +85,6 @@ a {
     border-bottom: 1px solid lightgray;
 }
 
-
-.bottom-border {
-    border-bottom: 1px solid #7F7F7F;
-}
 
 .text-align-c {
     text-align: center;
@@ -107,8 +99,19 @@ a {
 }
 
 .font-sz12 {
-    font-size: 12px;
+    font-size: 12px; 
 }
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.d-ib {
+    display: inline-block;
+}
+
 /* HEADER */
 
 header {
@@ -122,7 +125,7 @@ header {
 }
 
 #logo {
-    justify-content: flex-start;
+    align-self: flex-start;
     width: 10%;
     display: block;
 }
@@ -162,22 +165,20 @@ header {
     background-color: #B4D0E7;
 }
 
-h1 {
-    text-align: left;
+#jumbotron h1 {
     font-size: 58px;
-    font-weight: 700;
+    font-weight: 800;
     padding-top: 55px;
     padding-bottom: 40px;
 }
 
+#jumbo-description {
+    font-weight: 200;
+}
 
 #customer-proposal-img img{
     height: 350px;
     flex-grow: 1;
-}
-
-#jumbo-description {
-    font-weight: 200;
 }
 
 #jumbo-description div a {
@@ -191,6 +192,7 @@ h1 {
 
 #subscription-plans h3{
     font-size: 30px;
+    padding-top: 100px;
 }
 
 .circle {
@@ -208,6 +210,7 @@ h1 {
 
 .col-plan {
     font-weight: 100;
+    padding: 20px;
 }
 
 .col-plan h6 {
@@ -227,16 +230,17 @@ h1 {
     padding-bottom: 15px;
 }
 
-.col-plan ul{
-    padding: 30px 20px;
+.features {
+    width: 92%;
 }
 
-.col-plan ul li {
-    padding-bottom: 15px;
+.col-icons{
+    width: 8%;
 }
 
-.buy {
-    padding: 0px 0px 15px 30px;
+.buy a{
+    width: 100%;
+    text-align: center;
 }
 
 .fa-check {
@@ -244,12 +248,11 @@ h1 {
 }
 
 .col-plan {
-    width: calc(100% / 3 - 10px);
-    height: 700px;
+    width: calc(100% / 3 - 30px);
 }
 
 .col-plan-title {
-    width: calc(100% / 3 - 10px);
+    width: calc(100% / 3 - 30px);
     height: 30px;
     border-bottom: none;
     line-height: 30px;
@@ -257,7 +260,7 @@ h1 {
 
 .cards {
     justify-content: space-around;
-    margin: 0 -5px;
+    margin: 0 -15px;
 }
 
 #row-enterprise {
