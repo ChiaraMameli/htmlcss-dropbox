@@ -40,6 +40,10 @@ section {
     padding-bottom: 30px;
 }
 
+img {
+    display: block;
+}
+
 /* UTILS */
 
 .d-flex {
@@ -205,7 +209,7 @@ header {
 
 /* SUBSCRIPTION PLANS */
 
-#subscription-plans h3{
+#subscription-plans h3 {
     font-size: 30px;
     padding-top: 100px;
 }
@@ -289,40 +293,46 @@ header {
 
 #partner {
     height: 400px;
-    padding-top: 70px;
-}
-
-#partner-img img {
-    height: 380px;
+    padding: 70px 0;
 }
 
 #partner-img {
-    width: 55%;
+    width: 60%;
+}
+
+#partner-img img {
+    width: 100%;
 }
 
 #partner-description {
-    padding: 40px 60px;
-    width: 45%;
-}
-
-/* ACTIONS */
-
-#cards {
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-content: space-around;
-}
-
-.col-action {
-    width: calc(100% / 3 - 10px);
-    height: 300px;
-    background-color: #065FF6;
-    margin-bottom: 30px;
+    padding: 40px;
+    width: 40%;
 }
 
 #partner-description h4 {
     font-size: 18px;
     font-weight: 700;
+}
+
+/* ACTIONS */
+
+#actions {
+    padding-top: 150px;
+}
+
+#cards {    
+}
+
+.col-action {
+    width: calc(100% / 3 - 30px);
+    margin-bottom: 30px;
+}
+.col-action img {
+    width: 100%;
+}
+
+#actions h3{
+    font-size: 30px;
 }
 
 /* COMPANIES */
