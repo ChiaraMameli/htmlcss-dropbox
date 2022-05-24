@@ -335,16 +335,33 @@ header {
     font-size: 30px;
 }
 
+/* CLIENTS */
+
+#clients h4 {
+    font-size: 30px;
+    font-weight: 600;
+    padding-right: 200px;
+}
+
+#clients a {
+    text-decoration: underline;
+    padding-bottom: 110px;
+}
+
 /* COMPANIES */
 
+#companies {
+    padding-top: 80px;
+}
+
 #designit-centre {
-    flex-grow: 1;
     background-color: #F5F5F5;
+    width: calc(100% / 3);
 }
 
 
 #companies-left, #companies-right {
-    width: 480px;
+    width: calc(100% / 3);
     height: 480px;
 }
 
@@ -359,8 +376,29 @@ header {
     text-align: center;
 }
 
+.square img {
+    display: block;
+    width: 50%;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(23deg) brightness(118%) contrast(118%);
+}
+
+.square {
+    justify-content: center;
+    align-items: center;
+}
+
+#designit-centre img {
+    display: block;
+    width: 50%;
+}
+
+#designit-centre {
+    padding: 30px 40px;
+}
+
 #designit {
     background-color: #A2D39B;
+    border: 10px solid #D1E9CD;
 }
 
 #asu {
@@ -390,6 +428,8 @@ header {
 #clear-channel {
     background-color: #FCD84A;
 }
+
+
 
 /* TRY */
 
