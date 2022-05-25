@@ -8,6 +8,10 @@
 
 /* GENERICS */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     text-align: left;
@@ -22,7 +26,7 @@ a {
     text-decoration: none;
 }
 
-section {
+section:not(#business){
     padding-bottom: 30px;
 }
 
@@ -64,15 +68,14 @@ img {
 
 .pt-30 {
     padding-top: 30px;  
-
 }
 
 .grey-border {
-    border: 1px solid lightgray;
+    border: 1px solid #d3d3d3;
 }
 
 .bottom-grey-border {
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid #d3d3d3;
 }
 
 .text-align-c {
@@ -198,7 +201,7 @@ nav li:hover {
 
 /* SUBSCRIPTION PLANS */
 
-#subscription-plans h3 {
+#subscription-plans h2 {
     font-size: 30px;
     padding-top: 100px;
 }
@@ -212,6 +215,12 @@ nav li:hover {
     margin-right: 5px;
 }
 
+.radio-box {
+    padding-right: 30px;
+    display: inline-block;
+    vertical-align: 20%;
+}
+
 .blue-border {
     border: 3px solid #065FF6;
 }
@@ -222,14 +231,13 @@ nav li:hover {
     text-align: center;
 }
 
-.col-plan h4 {
+.col-plan h3 {
     font-size: 18px;
     line-height: 40px;
     padding-top: 10px;
 }
 
 .price {
-    font-weight: bold;
     display: inline-block;
     padding-bottom: 15px;
 }
@@ -272,6 +280,10 @@ nav li:hover {
     margin: 0 -15px;
 }
 
+.split {
+    width: 20%;
+    border: 1px solid #D3D3D3;
+}
 
 /* PARTNER */
 
@@ -293,7 +305,7 @@ nav li:hover {
     width: 40%;
 }
 
-#partner-description h4 {
+#partner-description h2 {
     font-size: 18px;
     font-weight: 700;
 }
@@ -312,24 +324,26 @@ nav li:hover {
     width: 100%;
 }
 
-#actions h3{
+#actions h2{
     font-size: 30px;
 }
 
-/* CLIENTS */
+/* COMPANIES */
 
-#clients h4 {
+#business h2 {
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 700;
     padding-right: 200px;
 }
 
-#clients a {
+#business a {
     text-decoration: underline;
     padding-bottom: 110px;
 }
 
-/* COMPANIES */
+#business .small-container {
+    padding-bottom: 110px;
+}
 
 #companies {
     padding-top: 80px;
@@ -339,7 +353,6 @@ nav li:hover {
 #designit-centre {
     background-color: #F5F5F5;
 }
-
 
 #companies-left, #companies-right, #designit-centre {
     width: calc(100% / 3);
@@ -512,6 +525,10 @@ footer h5 {
 
 footer li {
     line-height: 30px;
+}
+
+footer .split{
+    width: 10%;
 }
 
 /* BUTTONS */
