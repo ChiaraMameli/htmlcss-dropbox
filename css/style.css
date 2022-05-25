@@ -357,28 +357,21 @@ nav li:hover {
 
 #designit-centre {
     background-color: #F5F5F5;
-    width: calc(100% / 3);
 }
 
 
-#companies-left, #companies-right {
-    width: calc(100% / 3);
-    height: 480px;
-}
-
-
-#companies-left, #companies-right {
-    flex-wrap: wrap;
+#companies-left, #companies-right, #designit-centre {
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
 }
 
 #designit, #asu, #uf, #topps, #wrr, #hearst, #lonely-planet, #clear-channel {
-    width: 240px;
-    height: 240px;
-    text-align: center;
+    width: 50%;
+    height: 50%;
+    border: 10px solid transparent;
 }
 
 .square img {
-    display: block;
     width: 50%;
     filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(23deg) brightness(118%) contrast(118%);
 }
@@ -386,6 +379,7 @@ nav li:hover {
 .square {
     justify-content: center;
     align-items: center;
+    transition: border .3s;
 }
 
 #designit-centre img {
@@ -397,37 +391,70 @@ nav li:hover {
     padding: 30px 40px;
 }
 
-#designit {
+.bg-green {
     background-color: #A2D39B;
-    border: 10px solid #D1E9CD;
 }
 
-#asu {
+.bg-darkred {
     background-color: #62142B;
 }
 
-#uf {
+.bg-lightblue {
     background-color: #3694CE;
 }
 
-#topps{
+.bg-red{
     background-color: #ED3833;
 }
 
-#wrr {
+.bg-orange {
     background-color: #D6312D;
 }
 
-#hearst {
+.bg-cyan {
     background-color: #B4D0E7;
 }
 
-#lonely-planet {
+.bg-darkblue {
     background-color: #0D2481;
 }
 
-#clear-channel {
+.bg-yellow {
     background-color: #FCD84A;
+}
+
+/* HOVER COMPANIES */
+
+#designit:hover {
+    border: 10px solid #D1E9CD;
+}
+
+#asu:hover {
+    border: 10px solid #784b5a;
+}
+
+#uf:hover {
+    border: 10px solid #6aa6cb;
+}
+
+#topps:hover{
+    border: 10px solid #ea837f;
+}
+
+#wrr:hover {
+    border: 10px solid #d56b69;
+}
+
+#hearst:hover {
+    border: 10px solid #d1dee8;
+}
+
+#lonely-planet:hover {
+    border: 10px solid #314181;
+}
+
+#clear-channel:hover {
+    border: 10px solid #fbe489;
 }
 
 /* TRY */
